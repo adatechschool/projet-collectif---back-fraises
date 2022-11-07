@@ -7,6 +7,7 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 // on ajoute le middleware qui vérifient et décodent les token pour les passer aux requêtes
 const auth = require("./middleware/auth");
+//
 const bodyParser = require("body-parser");
 
 const mongoose = require("mongoose"); // on fait appel au module mongoose qui est un module Node
