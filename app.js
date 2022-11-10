@@ -152,7 +152,7 @@ app.post("/api/validCart", async (req, res) => {
 // on importe le model User
 const User = require("./models/User");
 const { updateOne } = require("./models/Furniture");
-// // on passe l'objet auth pour transmettre le token à la requête
+  // // on passe l'objet auth pour transmettre le token à la requête
 // app.post("/api/addUser", (req, res) => {
 //   const query = req.body
 //   const user = new User({
